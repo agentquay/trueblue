@@ -1,0 +1,474 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.5s ease 0s;
+}
+
+.container {
+  margin: auto;
+  max-width: 1020px;
+  overflow: auto;
+}
+
+.level_one {
+  background: #5d9632;
+  font-size: .75em;
+  overflow: auto;
+  padding: 20px 0;
+}
+.level_one a {
+  color: white;
+}
+
+.top_nav {
+  color: white;
+  float: left;
+}
+.top_nav .top_options li {
+  display: inline;
+}
+.top_nav .top_options li:after {
+  content: " | ";
+}
+.top_nav .top_options li:last-child:after {
+  content: none;
+}
+
+.social {
+  float: right;
+}
+.social li {
+  display: inline;
+}
+
+.searchbox {
+  float: right;
+  margin: 0 25px;
+}
+
+/*---level-two---*/
+.level_two {
+  overflow: auto;
+}
+
+.logo {
+  float: left;
+  margin: 10px 0;
+}
+.logo img {
+  width: 179px;
+}
+
+.menu {
+  float: left;
+  margin: 30px 80px;
+}
+.menu li {
+  background: url("../img/menu_arrow.png") no-repeat scroll 100% top rgba(0, 0, 0, 0);
+  display: inline;
+  margin: 0 10px;
+  padding: 7px 12px 0 0;
+  text-transform: uppercase;
+}
+.menu li a {
+  color: #808284;
+}
+.menu li a:hover {
+  color: #4C7520;
+}
+
+/*---level three---*/
+.level_three {
+  height: 574px;
+  overflow: auto;
+}
+
+.h_slide {
+  background: url("../img/blueberries.jpg") repeat scroll 0 0/100% auto rgba(0, 0, 0, 0);
+  height: 100%;
+  position: relative;
+}
+
+.slide_title {
+  bottom: 20%;
+  color: white;
+  position: absolute;
+}
+.slide_title h1 {
+  font-size: 100px;
+  text-transform: uppercase;
+}
+.slide_title h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.slide_title h3 {
+  font-size: 22px;
+}
+.slide_title a {
+  background: #688848;
+  border: 1px solid white;
+  color: white;
+  display: inline-block;
+  margin: 10px 0;
+  padding: 15px 30px;
+  text-transform: uppercase;
+}
+
+.advantages h2 {
+  font-size: 32px;
+  margin: 30px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.our_advantages li {
+  display: inline-block;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease 0s;
+}
+.our_advantages li:hover .front {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  z-index: 0;
+}
+.our_advantages li:hover .back {
+  transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+}
+
+.advantage {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transition: all 0.5s ease 0s;
+}
+.advantage.back {
+  position: absolute;
+  top: 0;
+  transform: rotateY(-180deg);
+  -webkit-transform: rotateY(-180deg);
+}
+.advantage.front {
+  z-index: 10;
+}
+
+/*---welcome---*/
+.welcome {
+  margin: 45px auto;
+  overflow: auto;
+}
+.welcome h2 {
+  font-size: 32px;
+  margin: 30px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.shop {
+  float: left;
+  width: 37.5%;
+}
+.shop a {
+  background: url("../img/shop_arrow.png") no-repeat scroll 200% 40% #005480;
+  color: white;
+  display: block;
+  margin: auto;
+  padding: 13px 10px 10px;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+  width: 300px;
+}
+.shop a:hover {
+  background: url("../img/shop_arrow.png") no-repeat scroll 97% 40% #005480;
+}
+
+.welcome_content {
+  float: right;
+  width: 61.5%;
+}
+.welcome_content p {
+  color: #231F20;
+}
+.welcome_content picture {
+  left: 50%;
+  margin: 0 0 0 -25%;
+  position: relative;
+}
+
+/*---testimonials---*/
+.testimonials {
+  background: url("../img/blueberries-field.jpg") repeat scroll center rgba(0, 0, 0, 0);
+  color: white;
+  height: 250px;
+  line-height: 1.25em;
+  padding: 1% 0;
+  text-align: center;
+}
+.testimonials .test_box_wrap {
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+}
+.testimonials .test_box_wrap h2 {
+  display: inline-block;
+  font-size: 32px;
+  margin: 20px 0;
+  text-transform: uppercase;
+}
+.testimonials .test_box_wrap .container {
+  margin: 0 auto 0;
+  position: relative;
+  top: 15%;
+}
+
+/*---benefits---*/
+.benefits {
+  background: url("../img/three_blueberries.jpg") no-repeat scroll center center/610px auto rgba(0, 0, 0, 0);
+  position: relative;
+}
+.benefits h2 {
+  font-size: 32px;
+  margin: 30px 0;
+  text-align: center;
+}
+
+.hero {
+  border: 1px solid #000;
+  border-radius: 10px;
+  color: #6C9D30;
+  font-size: .85em;
+  opacity: 0;
+  padding: 15px;
+  position: relative;
+  transition: all 1s ease 0s;
+  width: 230px;
+}
+.hero h3 {
+  color: #000;
+  margin: 5px 0 10px;
+}
+.hero p {
+  margin: 0 0 10px;
+}
+
+.hero_one {
+  bottom: 0px;
+  left: -50px;
+  text-align: right;
+}
+
+.hero_two {
+  bottom: -300px;
+  left: -50px;
+  text-align: right;
+}
+
+.hero_three {
+  bottom: 300px;
+  left: 75%;
+}
+
+.hero_four {
+  bottom: 0px;
+  left: 75%;
+}
+
+.bb_arrow {
+  opacity: 0;
+  position: absolute;
+  transition: all .5s ease 0s;
+}
+
+.arrow_one {
+  left: 200px;
+}
+
+.arrow_two {
+  left: 200px;
+  top: 500px;
+}
+
+.arrow_three {
+  right: 200px;
+  top: 201px;
+}
+
+.arrow_four {
+  right: 200px;
+  top: 520px;
+}
+
+.hero_fadein_one {
+  bottom: -55px;
+  left: 0;
+  text-align: right;
+}
+
+.hero_fadein_two {
+  bottom: -250px;
+  left: 0;
+  text-align: right;
+}
+
+.hero_fadein_three {
+  bottom: 227px;
+  left: 73%;
+}
+
+.hero_fadein_four {
+  bottom: 120px;
+  left: 73%;
+}
+
+.arrow_fadein_one {
+  left: 400px;
+}
+
+.arrow_fadein_two {
+  left: 400px;
+  top: 500px;
+}
+
+.arrow_fadein_three {
+  right: 425px;
+  top: 201px;
+}
+
+.arrow_fadein_four {
+  right: 420px;
+  top: 520px;
+}
+
+.fullin {
+  opacity: 1;
+}
+
+/*---footer---*/
+footer {
+  background: #0D2944;
+  color: white;
+}
+footer .widgets {
+  padding: 20px 0;
+  font-size: .85em;
+}
+
+.widget {
+  float: left;
+  width: 25%;
+}
+.widget address {
+  line-height: 1.5em;
+  margin: 10px 0;
+}
+.widget h3 {
+  color: #1b75bb;
+  font-size: 20px;
+  margin: 8px 0;
+  text-transform: uppercase;
+}
+.widget ul {
+  padding: 0 0 0 10px;
+}
+.widget li {
+  margin: 5px 0;
+}
+.widget li:before {
+  content: "> ";
+}
+.widget a {
+  color: white;
+}
+
+.widget-2 p {
+  margin: 0 0 10px;
+}
+
+.soc_links {
+  padding: 0 !important;
+  background: red;
+}
+.soc_links li {
+  float: left;
+  margin: 0 8px;
+}
+.soc_links li:before {
+  content: none;
+}
+
+.credit_line {
+  background: #5d9632;
+  overflow: auto;
+  color: white;
+  font-size: .75em;
+  padding: 10px 0;
+  text-align: center;
+}
+.credit_line a {
+  color: white;
+}
