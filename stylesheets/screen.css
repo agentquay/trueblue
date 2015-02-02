@@ -58,6 +58,22 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
+@font-face {
+  font-family: 'texgyreadventorbold';
+  src: url("texgyreadventor-bold-webfont.eot");
+  src: url("texgyreadventor-bold-webfont.eot?#iefix") format("embedded-opentype"), url("texgyreadventor-bold-webfont.woff") format("woff"), url("texgyreadventor-bold-webfont.ttf") format("truetype"), url("texgyreadventor-bold-webfont.svg#texgyreadventorbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'texgyreadventorregular';
+  src: url("texgyreadventor-regular-webfont.eot");
+  src: url("texgyreadventor-regular-webfont.eot?#iefix") format("embedded-opentype"), url("texgyreadventor-regular-webfont.woff") format("woff"), url("texgyreadventor-regular-webfont.ttf") format("truetype"), url("texgyreadventor-regular-webfont.svg#texgyreadventorregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   font-family: sans-serif;
   font-size: 16px;
@@ -66,6 +82,10 @@ body {
 a {
   text-decoration: none;
   transition: all 0.5s ease 0s;
+}
+
+h2 {
+  font-family: 'texgyreadventorregular';
 }
 
 .container {
@@ -195,14 +215,17 @@ a {
   position: absolute;
 }
 .slide_title h1 {
+  font-family: 'texgyreadventorbold';
   font-size: 100px;
   text-transform: uppercase;
 }
 .slide_title h2 {
+  font-family: 'texgyreadventorbold';
   font-size: 30px;
   text-transform: uppercase;
 }
 .slide_title h3 {
+  font-family: 'texgyreadventorregular';
   font-size: 22px;
 }
 .slide_title a {
@@ -375,19 +398,20 @@ a {
   width: 100%;
 }
 .shop a {
-  background: url("../img/shop_arrow.png") no-repeat scroll 200% 40% #005480;
+  background: url("../img/shop_arrow.png") no-repeat scroll 200% 50% #005480;
   color: white;
   display: block;
+  font-family: 'texgyreadventorbold';
   margin: auto;
   max-width: 350px;
-  padding: 13px 0px 10px;
+  padding: 10px 0px;
   text-align: center;
   text-transform: uppercase;
   vertical-align: middle;
   width: 100%;
 }
 .shop a:hover {
-  background: url("../img/shop_arrow.png") no-repeat scroll 97% 40% #005480;
+  background: url("../img/shop_arrow.png") no-repeat scroll 97% 50% #005480;
 }
 
 .welcome_content {
@@ -481,15 +505,17 @@ a {
 }
 .hero h3 {
   color: #000;
+  font-family: 'texgyreadventorbold';
   margin: 5px 0 10px;
 }
 .hero p {
+  font-family: 'texgyreadventorregular';
   margin: 0 0 10px;
   line-height: 16px;
 }
 
 .hero_one {
-  bottom: 0px;
+  bottom: -50px;
   left: -50px;
 }
 
@@ -521,25 +547,26 @@ a {
 
 .arrow_one {
   left: 28%;
+  top: 220px;
 }
 
 .arrow_two {
   left: 28%;
-  top: 500px;
+  top: 600px;
 }
 
 .arrow_three {
   right: 30%;
-  top: 201px;
+  top: 210px;
 }
 
 .arrow_four {
   right: 30%;
-  top: 520px;
+  top: 620px;
 }
 
 .hero_fadein_one {
-  bottom: -55px;
+  bottom: -100px;
   left: 0;
 }
 @media only screen and (min-width: 893px) {
@@ -570,21 +597,22 @@ a {
 
 .arrow_fadein_one {
   left: 31%;
+  top: 260px;
 }
 
 .arrow_fadein_two {
   left: 31%;
-  top: 500px;
+  top: 550px;
 }
 
 .arrow_fadein_three {
   right: 33%;
-  top: 201px;
+  top: 250px;
 }
 
 .arrow_fadein_four {
   right: 33%;
-  top: 520px;
+  top: 580px;
 }
 
 .fullin {
@@ -599,6 +627,9 @@ footer {
 footer .widgets {
   padding: 20px 0;
   font-size: .85em;
+}
+footer h3 {
+  font-family: 'texgyreadventorregular';
 }
 
 .widget {
