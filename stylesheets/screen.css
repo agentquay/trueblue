@@ -473,7 +473,7 @@ a {
     width: 40%;
   }
 }
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 711px) {
   .hero {
     margin: 2.5% auto;
     width: 90%;
