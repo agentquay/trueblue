@@ -13,6 +13,7 @@ if ($(window).scrollTop() > num) {
 	$('.arrow_four').addClass('arrow_fadein_four');
 	$('.hero').addClass('fullin');
 	$('.bb_arrow').addClass('fullin');
+	$('.benefits').addClass('ben_full');
 } else {
 	$('.hero_one').removeClass('hero_fadein_one');
 	$('.hero_two').removeClass('hero_fadein_two');
@@ -24,6 +25,7 @@ if ($(window).scrollTop() > num) {
 	$('.arrow_four').removeClass('arrow_fadein_four');
 	$('.hero').removeClass('fullin');
 	$('.bb_arrow').removeClass('fullin');
+	$('.benefits').removeClass('ben_full');
 }
 });
 
