@@ -101,6 +101,26 @@ h2{
 	}
 }
 
+.nav_btn {
+    border: 1px solid $link_color;
+    border-radius: 5px;
+    color: $link_color;
+    float: right;
+    padding: 5px 10px;
+    position: relative;
+
+    @media only screen and (min-width: 640px) {
+		display: none;
+	}
+}
+
+.m_items{
+
+	@media only screen and (max-width: 640px) {
+
+		display: none;
+		}
+}
 .soc_ser {
 
 	@media only screen and (max-width: 510px) {

@@ -118,6 +118,26 @@ h2 {
   content: none;
 }
 
+.nav_btn {
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  float: right;
+  padding: 5px 10px;
+  position: relative;
+}
+@media only screen and (min-width: 640px) {
+  .nav_btn {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .m_items {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 510px) {
   .soc_ser {
     display: flex;

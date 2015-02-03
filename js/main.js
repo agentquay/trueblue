@@ -1,4 +1,10 @@
 
+
+$('.nav_btn').click(function () {
+    $('.m_items').toggle('slow');
+    
+   });
+
 var num = 1600; //number of pixels before modifying styles
 
 $(window).bind('scroll', function () {
