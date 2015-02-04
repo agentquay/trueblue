@@ -159,6 +159,31 @@ h2 {
   margin: 0 25px;
 }
 
+.about_us ul {
+  display: none;
+  position: absolute;
+  z-index: 20;
+}
+.about_us ul li {
+  background: #fff;
+  display: list-item;
+  padding: 15px;
+}
+
+.drop:hover ul {
+  display: block;
+}
+.drop ul {
+  display: none;
+  position: absolute;
+  z-index: 20;
+}
+.drop ul li {
+  background: #fff;
+  display: list-item;
+  padding: 15px;
+}
+
 /*---level-two---*/
 .level_two {
   overflow: auto;

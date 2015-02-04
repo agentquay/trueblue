@@ -146,6 +146,50 @@ h2{
     margin: 0 25px;
 }
 
+
+
+.about_us{
+
+
+
+	ul{
+		display: none;
+		position: absolute;
+		z-index: 20;
+
+
+
+		li{
+			background: #fff;
+			display: list-item;
+			padding: 15px;
+
+		}
+
+	}
+}
+
+.drop{
+
+	&:hover ul {
+		display: block;
+	}
+	ul{
+		display: none;
+		position: absolute;
+		z-index: 20;
+
+
+
+		li{
+			background: #fff;
+			display: list-item;
+			padding: 15px;
+
+		}
+
+	}	
+}
 /*---level-two---*/
 
 .level_two {
