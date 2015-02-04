@@ -229,15 +229,26 @@ h2 {
 }
 
 .h_slide {
-  background: url("../img/blueberries.jpg") no-repeat scroll 0 0/cover rgba(0, 0, 0, 0);
-  height: 100%;
+  height: 574px;
   position: relative;
+}
+.h_slide.s_one {
+  background: url("../img/blueberries.jpg") no-repeat scroll 0 0/cover rgba(0, 0, 0, 0);
+}
+.h_slide.s_two {
+  background: url("../img/road_by_water.jpg") no-repeat scroll 0 0/cover rgba(0, 0, 0, 0);
+}
+.h_slide.s_three {
+  background: url("../img/blueberries-field.jpg") no-repeat scroll 0 0/cover rgba(0, 0, 0, 0);
 }
 
 .slide_title {
-  bottom: 20%;
+  bottom: 0%;
   color: white;
+  opacity: 0;
   position: absolute;
+  left: 10%;
+  transition: all 0.5s ease 0s;
 }
 .slide_title h1 {
   font-family: 'texgyreadventorbold';
@@ -263,6 +274,86 @@ h2 {
   text-transform: uppercase;
 }
 
+.testing .up {
+  opacity: 1;
+  bottom: 20%;
+}
+
+/*---slider---*/
+.mask {
+  float: left;
+  width: 100%;
+  height: 574px;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.5s ease 0s;
+}
+
+ul.images {
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+ul.images li {
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+ul.triggers {
+  display: none;
+  left: 50%;
+  position: absolute;
+  top: 90%;
+}
+ul.triggers li {
+  float: left;
+  margin: 0 5px;
+  font: bold 16px arial;
+  cursor: pointer;
+  background-color: #ccc;
+  color: #000;
+  padding: 10px;
+}
+ul.triggers li.selected {
+  background-color: red;
+  color: #000;
+}
+
+.control {
+  position: absolute;
+  top: 50%;
+  color: #fff;
+  cursor: pointer;
+}
+
+.prev {
+  background: url("../img/prev.png") no-repeat scroll 0 -44px/cover rgba(0, 0, 0, 0);
+  left: 0%;
+  padding: 22px;
+  opacity: 0;
+  transition: all 0.5s ease 0s;
+}
+.mask:hover .prev {
+  left: 2%;
+  opacity: 1;
+}
+
+.next {
+  background: url("../img/next.png") no-repeat scroll 0 -44px/cover rgba(0, 0, 0, 0);
+  left: 100%;
+  padding: 22px;
+  opacity: 0;
+  transition: all 0.5s ease 0s;
+}
+.mask:hover .next {
+  left: 95%;
+  opacity: 1;
+}
+
+/*---slider end---*/
+.advantages {
+  overflow: auto;
+}
 .advantages h2 {
   font-size: 32px;
   margin: 30px 0;
@@ -491,6 +582,11 @@ h2 {
   position: relative;
   transition: all 1s ease 0s;
 }
+@media only screen and (max-width: 568px) {
+  .benefits {
+    background: none;
+  }
+}
 .benefits h2 {
   font-size: 32px;
   margin: 30px 0;
@@ -642,6 +738,18 @@ h2 {
 
 .fullin {
   opacity: 1;
+}
+
+.rwd_bb {
+  display: none;
+}
+@media only screen and (max-width: 568px) {
+  .rwd_bb {
+    display: block;
+  }
+  .rwd_bb img {
+    width: 100%;
+  }
 }
 
 /*---footer---*/
