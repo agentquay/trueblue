@@ -167,6 +167,13 @@ h2 {
   position: absolute;
   z-index: 20;
 }
+@media only screen and (max-width: 640px) {
+  .drop ul {
+    display: block;
+    position: relative;
+    border-top: 1px solid #808284;
+  }
+}
 .drop ul li {
   background: #fff;
   border-left: 1px solid #808284;
@@ -177,6 +184,14 @@ h2 {
 }
 .drop ul li:last-child {
   border-bottom: 1px solid #808284;
+}
+@media only screen and (max-width: 640px) {
+  .drop ul li {
+    border: none;
+  }
+  .drop ul li:last-child {
+    border-bottom: none;
+  }
 }
 .drop ul li a {
   display: list-item;
@@ -236,6 +251,7 @@ h2 {
 }
 @media only screen and (max-width: 640px) {
   .menu li {
+    background: none;
     display: list-item;
     float: none;
   }

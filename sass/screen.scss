@@ -160,6 +160,12 @@ h2{
 		position: absolute;
 		z-index: 20;
 
+		@media only screen and (max-width: 640px) {
+    		display:block;
+    		position: relative;
+    		border-top: 1px solid #808284;
+		}
+
 
 
 		li{
@@ -173,7 +179,15 @@ h2{
 		    &:last-child{
 		    	border-bottom: 1px solid #808284;
 		    }
-		    
+
+		    @media only screen and (max-width: 640px) {
+	    		border: none;
+
+	    		&:last-child{
+			    	border-bottom: none;
+			    }
+			}
+			    
 		    a{
 		    	display: list-item;
 		    	padding: 15px;
@@ -233,6 +247,7 @@ h2{
     	text-transform: uppercase;
 
     	@media only screen and (max-width: 640px) {
+    		background: none;
 			display:list-item;
 			float: none;
 		}
