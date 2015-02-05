@@ -188,6 +188,7 @@ h2 {
 @media only screen and (max-width: 640px) {
   .drop ul li {
     border: none;
+    padding: 3px;
   }
   .drop ul li:last-child {
     border-bottom: none;
@@ -196,6 +197,11 @@ h2 {
 .drop ul li a {
   display: list-item;
   padding: 15px;
+}
+@media only screen and (max-width: 640px) {
+  .drop ul li a {
+    padding: 7px;
+  }
 }
 
 /*---level-two---*/
@@ -254,6 +260,7 @@ h2 {
     background: none;
     display: list-item;
     float: none;
+    padding: 10px 0;
   }
 }
 .menu li a {
