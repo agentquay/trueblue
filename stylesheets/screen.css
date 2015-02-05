@@ -159,17 +159,6 @@ h2 {
   margin: 0 25px;
 }
 
-.about_us ul {
-  display: none;
-  position: absolute;
-  z-index: 20;
-}
-.about_us ul li {
-  background: #fff;
-  display: list-item;
-  padding: 15px;
-}
-
 .drop:hover ul {
   display: block;
 }
@@ -180,6 +169,16 @@ h2 {
 }
 .drop ul li {
   background: #fff;
+  border-left: 1px solid #808284;
+  border-right: 1px solid #808284;
+  border-top: 1px solid #808284;
+  display: list-item;
+  float: none;
+}
+.drop ul li:last-child {
+  border-bottom: 1px solid #808284;
+}
+.drop ul li a {
   display: list-item;
   padding: 15px;
 }
@@ -230,7 +229,7 @@ h2 {
 }
 .menu li {
   background: url("../img/menu_arrow.png") no-repeat scroll 100% top rgba(0, 0, 0, 0);
-  display: inline;
+  float: left;
   margin: 0 10px;
   padding: 7px 12px 0 0;
   text-transform: uppercase;
@@ -238,6 +237,7 @@ h2 {
 @media only screen and (max-width: 640px) {
   .menu li {
     display: list-item;
+    float: none;
   }
 }
 .menu li a {

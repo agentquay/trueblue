@@ -148,26 +148,7 @@ h2{
 
 
 
-.about_us{
 
-
-
-	ul{
-		display: none;
-		position: absolute;
-		z-index: 20;
-
-
-
-		li{
-			background: #fff;
-			display: list-item;
-			padding: 15px;
-
-		}
-
-	}
-}
 
 .drop{
 
@@ -183,8 +164,20 @@ h2{
 
 		li{
 			background: #fff;
-			display: list-item;
-			padding: 15px;
+		    border-left: 1px solid #808284;
+		    border-right: 1px solid #808284;
+		    border-top: 1px solid #808284;
+		    display: list-item;
+		    float: none;
+
+		    &:last-child{
+		    	border-bottom: 1px solid #808284;
+		    }
+		    
+		    a{
+		    	display: list-item;
+		    	padding: 15px;
+		    }
 
 		}
 
@@ -234,13 +227,14 @@ h2{
 
     li{
     	background: url("../img/menu_arrow.png") no-repeat scroll 100% top rgba(0, 0, 0, 0);
-    	display: inline;
+    	float: left;
     	margin: 0 10px;
     	padding: 7px 12px 0 0;
     	text-transform: uppercase;
 
     	@media only screen and (max-width: 640px) {
 			display:list-item;
+			float: none;
 		}
 
     	a{
