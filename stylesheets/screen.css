@@ -343,9 +343,10 @@ ul.images {
   left: 0px;
 }
 ul.images li {
-  position: relative;
+  position: absolute;
   top: 0px;
   left: 0px;
+  width: 100%;
 }
 ul.triggers {
   display: none;
@@ -534,6 +535,11 @@ ul.triggers li.selected {
 }
 .supplier .back {
   background: url(../img/supplier_b.png) no-repeat;
+}
+@media only screen and (max-width: 1120px) {
+  .back {
+    display: none;
+  }
 }
 
 /*---welcome---*/

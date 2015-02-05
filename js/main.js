@@ -45,7 +45,7 @@ var target;
 
 triggers.first().addClass('selected');
 images.hide().first().show().addClass('testing');
-s_title.first().addClass('up');
+//s_title.first().addClass('up');
 
 
 
@@ -128,4 +128,4 @@ var timingRun = setInterval(function() { sliderTiming(); },7000);
 function resetTiming() {
     clearInterval(timingRun);
     timingRun = setInterval(function() { sliderTiming(); },7000);
-}
+} 

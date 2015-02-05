@@ -340,7 +340,9 @@ h2{
 .testing .up{
 		opacity: 1;
 		bottom: 20%;
+		
 	}
+
 /*---slider---*/
 
 .mask { 
@@ -360,9 +362,10 @@ ul{
 		left:0px; 
 
 		li { 
-		  	position:relative; 
+		  	position:absolute; 
 		  	top:0px;
 		  	left:0px; 
+		  	width: 100%;
 		}
 	}
 
@@ -584,6 +587,10 @@ ul{
 		.supplier &{
 			background: url(../img/supplier_b.png) no-repeat;
 		}
+
+		@media only screen and (max-width: 1120px) {
+				display: none;
+			}
 
 	}
 
