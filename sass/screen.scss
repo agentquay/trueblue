@@ -552,6 +552,7 @@ ul{
 		background-position: center;
 		height: 100%;
 		width: 100%;
+		z-index: 20;
 
 		.grower &{
 			background: url(../img/grower_f.png) no-repeat center;

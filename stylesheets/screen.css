@@ -503,6 +503,7 @@ ul.triggers li.selected {
   background-position: center;
   height: 100%;
   width: 100%;
+  z-index: 20;
 }
 .grower .front {
   background: url(../img/grower_f.png) no-repeat center;
