@@ -281,16 +281,34 @@ h2 {
   position: relative;
 }
 .h_slide.s_one {
-  background: url("../img/blueberries.jpg") no-repeat scroll 0 0/100% rgba(0, 0, 0, 0);
+  /*background: url("../img/blueberries.jpg") no-repeat scroll 0 0 / 100% rgba(0, 0, 0, 0);*/
+  background: url("../img/blueberries.jpg") no-repeat scroll center rgba(0, 0, 0, 0);
   background-size: cover;
+  /*background-color: #ffffff; 
+  background-image: url("../img/blueberries.jpg"); 
+  background-repeat: no-repeat; 
+  background-position: 0 0; 
+  background-size: cover;*/
 }
 .h_slide.s_two {
-  background: url("../img/road_by_water.jpg") no-repeat scroll 0 0/100% rgba(0, 0, 0, 0);
+  /*background: url("../img/road_by_water.jpg") no-repeat scroll 0 0 / 100% rgba(0, 0, 0, 0);*/
+  background: url("../img/road_by_water.jpg") no-repeat scroll center rgba(0, 0, 0, 0);
   background-size: cover;
+  /*background-color: #ffffff; 
+  background-image: url("../img/blueberries.jpg"); 
+  background-repeat: no-repeat; 
+  background-position: 0 0; 
+  background-size: cover;*/
 }
 .h_slide.s_three {
-  background: url("../img/blueberries-field.jpg") no-repeat scroll 0 0/100% rgba(0, 0, 0, 0);
+  /*background: url("../img/blueberries-field.jpg") no-repeat scroll 0 0 / 100% rgba(0, 0, 0, 0);*/
+  background: url("../img/blueberries-field.jpg") no-repeat scroll center rgba(0, 0, 0, 0);
   background-size: cover;
+  /*background-color: #ffffff; 
+  background-image: url("../img/blueberries.jpg"); 
+  background-repeat: no-repeat; 
+  background-position: 0 0; 
+  background-size: cover;*/
 }
 
 .slide_title {
@@ -379,7 +397,7 @@ ul.triggers li.selected {
 }
 
 .prev {
-  background: url("../img/prev.png") no-repeat scroll 0 -44px/cover rgba(0, 0, 0, 0);
+  background: url("../img/prev.png") no-repeat scroll 0 -44px rgba(0, 0, 0, 0);
   left: 0%;
   padding: 22px;
   opacity: 0;
@@ -391,7 +409,7 @@ ul.triggers li.selected {
 }
 
 .next {
-  background: url("../img/next.png") no-repeat scroll 0 -44px/cover rgba(0, 0, 0, 0);
+  background: url("../img/next.png") no-repeat scroll 0 -44px rgba(0, 0, 0, 0);
   left: 100%;
   padding: 22px;
   opacity: 0;
@@ -629,15 +647,17 @@ ul.triggers li.selected {
 .testimonials .test_box_wrap .container {
   margin: 0 auto 0;
   position: relative;
-  top: 15%;
+  xtop: 15%;
 }
 
 /*---benefits---*/
 .benefits {
-  background: url("../img/three_blueberries.jpg") no-repeat scroll center center/550px rgba(0, 0, 0, 0);
+  /*background: url("../img/three_blueberries.jpg") no-repeat scroll center center rgba(0, 0, 0, 0);*/
+  background: url("../img/three_blueberries.jpg") no-repeat scroll center rgba(0, 0, 0, 0);
+  background-size: 550px;
   opacity: 0;
   position: relative;
-  transition: all 1s ease 0s;
+  transition: all .5s ease 0s;
 }
 @media only screen and (max-width: 568px) {
   .benefits {
@@ -667,7 +687,7 @@ ul.triggers li.selected {
   opacity: 0;
   padding: 15px;
   position: relative;
-  transition: all 1s ease 0s;
+  transition: all .5s ease 0s;
   width: 230px;
 }
 @media only screen and (max-width: 892px) {
@@ -719,7 +739,7 @@ ul.triggers li.selected {
 .bb_arrow {
   opacity: 0;
   position: absolute;
-  transition: all 1s ease 0s;
+  transition: all .5s ease 0s;
 }
 @media only screen and (max-width: 892px) {
   .bb_arrow {
