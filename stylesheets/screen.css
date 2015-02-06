@@ -281,13 +281,16 @@ h2 {
   position: relative;
 }
 .h_slide.s_one {
-  background: url("../img/blueberries.jpg") no-repeat scroll 0 0/cover rgba(0, 0, 0, 0);
+  background: url("../img/blueberries.jpg") no-repeat scroll 0 0/100% rgba(0, 0, 0, 0);
+  background-size: cover;
 }
 .h_slide.s_two {
-  background: url("../img/road_by_water.jpg") no-repeat scroll 0 0/cover rgba(0, 0, 0, 0);
+  background: url("../img/road_by_water.jpg") no-repeat scroll 0 0/100% rgba(0, 0, 0, 0);
+  background-size: cover;
 }
 .h_slide.s_three {
-  background: url("../img/blueberries-field.jpg") no-repeat scroll 0 0/cover rgba(0, 0, 0, 0);
+  background: url("../img/blueberries-field.jpg") no-repeat scroll 0 0/100% rgba(0, 0, 0, 0);
+  background-size: cover;
 }
 
 .slide_title {
@@ -400,9 +403,6 @@ ul.triggers li.selected {
 }
 
 /*---slider end---*/
-.advantages {
-  overflow: auto;
-}
 .advantages h2 {
   font-size: 32px;
   margin: 30px 0;
@@ -543,9 +543,12 @@ ul.triggers li.selected {
 }
 
 /*---welcome---*/
+.content {
+  padding: 20px 0 50px;
+}
+
 .welcome {
   margin: 45px auto;
-  overflow: auto;
 }
 .welcome h2 {
   font-size: 32px;
@@ -631,7 +634,7 @@ ul.triggers li.selected {
 
 /*---benefits---*/
 .benefits {
-  background: url("../img/three_blueberries.jpg") no-repeat scroll center center/550px auto rgba(0, 0, 0, 0);
+  background: url("../img/three_blueberries.jpg") no-repeat scroll center center/550px rgba(0, 0, 0, 0);
   opacity: 0;
   position: relative;
   transition: all 1s ease 0s;
@@ -645,6 +648,10 @@ ul.triggers li.selected {
   font-size: 32px;
   margin: 30px 0;
   text-align: center;
+}
+
+.b_wrap {
+  position: relative;
 }
 
 .ben_full {
@@ -721,22 +728,22 @@ ul.triggers li.selected {
 }
 
 .arrow_one {
-  left: 28%;
+  left: 25%;
   top: 220px;
 }
 
 .arrow_two {
-  left: 28%;
+  left: 25%;
   top: 600px;
 }
 
 .arrow_three {
-  right: 30%;
+  right: 27%;
   top: 210px;
 }
 
 .arrow_four {
-  right: 30%;
+  right: 27%;
   top: 620px;
 }
 
@@ -771,22 +778,22 @@ ul.triggers li.selected {
 }
 
 .arrow_fadein_one {
-  left: 31%;
+  left: 27%;
   top: 260px;
 }
 
 .arrow_fadein_two {
-  left: 31%;
+  left: 27%;
   top: 550px;
 }
 
 .arrow_fadein_three {
-  right: 33%;
+  right: 30%;
   top: 250px;
 }
 
 .arrow_fadein_four {
-  right: 33%;
+  right: 30%;
   top: 580px;
 }
 
