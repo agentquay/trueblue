@@ -59,44 +59,6 @@ function sliderResponse(target) {
 
     
 
-    /*
-$('.h_slide').each(function(i){
-        var display = $(this).css('display');
-        if (display === 'list-item') {
-        	$('.testing .slide_title').addClass('up');
-        }else if(display === 'none'){
-        	$('.testing .slide_title').removeClass('up');
-        }else{
-        	$('.testing .slide_title').removeClass('up');
-        }
-            
-    });
-    $('.h_slide.s_two').each(function(i){
-        var display = $('.h_slide.s_two').css('display');
-        if (display === 'list-item') {
-        	$('.s_two .slide_title').addClass('up');
-        }else if(display === 'none'){
-        	$('.s_two .slide_title').removeClass('up');
-        }else{
-        	$('.s_two .slide_title').removeClass('up');
-        }
-            
-    });
-
-    $('.h_slide.s_three').each(function(i){
-        var display = $('.h_slide.s_three').css('display');
-        if (display === 'list-item') {
-        	$('.s_three.slide_title').addClass('up');
-        }else if(display === 'none'){
-        	$('.s_three.slide_title').removeClass('up');
-        }else{
-        	$('.s_three.slide_title').removeClass('up');
-        }
-            
-    });
-    */
-
-
 }
 
 triggers.click(function() {

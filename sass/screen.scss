@@ -1012,6 +1012,65 @@ footer{
 }
 
 
+/*------------Interior Pages-------------*/
+
+.header_img {
+    background: url("../img/grow_header.jpg") no-repeat scroll center top / 100% auto #ffffff;
+    height: 345px;
+
+    .head_title {
+	    color: #fff;
+	    padding: 150px 0;
+	    text-transform: uppercase;
+
+	    h1 {
+		    font-size: 5em;
+		}
+
+		h2 {
+		    font-size: 2.5em;
+		}
+	}
+
+}
+
+.page_content{
+	
+	margin: 1% auto 5%;
+
+	h2 {
+	    font-size: 1.5em;
+	    line-height: 1.3;
+	    padding: 3% 0;
+	    text-align: center;
+	}
+
+	h3 {
+	    color: #688848;
+	    font-size: 1.5em;
+	}
+
+	h4 {
+	    color: #005480;
+	}
+
+	li {
+	    line-height: 1.3;
+	}
+
+	p {
+	    line-height: 1.5;
+	  
+	    padding: 0 0 2%;
+	}
+
+	.highlighter{
+
+	    color: #005480;
+	}
+}
+
+
 /*
  * Clearfix: contain floats
  *
