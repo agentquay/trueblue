@@ -945,6 +945,9 @@ footer h3 {
 .page_content h4 {
   color: #005480;
 }
+.page_content ul {
+  margin: 1% 0 2%;
+}
 .page_content li {
   line-height: 1.3;
 }
