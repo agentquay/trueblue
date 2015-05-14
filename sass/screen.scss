@@ -1015,8 +1015,24 @@ footer{
 /*------------Interior Pages-------------*/
 
 .header_img {
-    background: url("../img/grow_header.jpg") no-repeat scroll center top / 100% auto #ffffff;
+    
     height: 345px;
+
+    &.grow{
+    	background: url("../img/grow_header.jpg") no-repeat scroll center top / 100% auto #ffffff;
+    }
+
+    &.history{
+    	background: url("../img/history_header.jpg") no-repeat scroll center top / 100% auto #ffffff;
+    }
+
+    &.shelly{
+    	background: url("../img/shelly_header.jpg") no-repeat scroll center top / 100% auto #ffffff;
+    }
+
+    &.unique{
+    	background: url("../img/unique_header.jpg") no-repeat scroll center top / 100% auto #ffffff;
+    }
 
     .head_title {
 	    color: #fff;
@@ -1065,13 +1081,53 @@ footer{
 	p {
 	    line-height: 1.5;
 	  
-	    padding: 0 0 2%;
+	    padding: 1% 0 2%;
 	}
 
 	.highlighter{
 
 	    color: #005480;
 	}
+}
+
+.history_side {
+    background: url("../img/history_side.jpg") no-repeat scroll center top / 100% auto white;
+    float: left;
+    min-height: 400px;
+    margin: 2% 3% 0 0;
+    max-width: 22%;
+    width: 100%;
+}
+
+.shelly_side {
+    background: url("../img/shelly_side.jpg") no-repeat scroll center top / 100% auto white;
+    float: left;
+    min-height: 400px;
+    margin: 2% 3% 0 0;
+    max-width: 22%;
+    width: 100%;
+}
+
+.history_content {
+    float: left;
+    max-width: 75%;
+    width: 100%;
+
+    h2{
+    	text-align: left;
+    }
+}
+
+.hl_green {
+    color: #4c7520;
+}
+
+.more{
+	color: #BC1222;
+}
+
+.bottom_img img {
+    width: 100%;
 }
 
 
