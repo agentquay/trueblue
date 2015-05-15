@@ -1032,10 +1032,12 @@ footer h3 {
   text-transform: uppercase;
 }
 .header_img .head_title h1 {
+  font-family: "texgyreadventorbold";
   font-size: 5em;
 }
 .header_img .head_title h2 {
   font-size: 2.5em;
+  font-family: "texgyreadventorbold";
 }
 
 .page_content {
@@ -1049,7 +1051,8 @@ footer h3 {
 }
 .page_content h3 {
   color: #688848;
-  font-size: 1.5em;
+  font-size: 1.45em;
+  font-weight: bold;
 }
 .page_content h4 {
   color: #005480;
@@ -1076,6 +1079,14 @@ footer h3 {
   max-width: 22%;
   width: 100%;
 }
+@media only screen and (max-width: 735px) {
+  .history_side {
+    background: url("../img/history_side_mobile.jpg");
+    background-size: cover;
+    float: none;
+    max-width: 100%;
+  }
+}
 
 .shelly_side {
   background: url("../img/shelly_side.jpg") no-repeat scroll center top/100% auto white;
@@ -1085,6 +1096,13 @@ footer h3 {
   max-width: 22%;
   width: 100%;
 }
+@media only screen and (max-width: 735px) {
+  .shelly_side {
+    background-size: cover;
+    float: none;
+    max-width: 100%;
+  }
+}
 
 .history_content {
   float: left;
@@ -1093,6 +1111,20 @@ footer h3 {
 }
 .history_content h2 {
   text-align: left;
+}
+@media only screen and (max-width: 735px) {
+  .history_content h2 {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 735px) {
+  .history_content {
+    float: none;
+    max-width: 100%;
+  }
+  .history_content h2 {
+    text-align: center;
+  }
 }
 
 .u-pick .page_content {
