@@ -1059,6 +1059,8 @@ footer h3 {
 .page_content h4 {
   color: #005480;
   font-size: 1.25em;
+}
+.page_content .upickhours h4 {
   margin: 19px 0;
 }
 .page_content ul {
