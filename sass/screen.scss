@@ -1134,6 +1134,20 @@ footer{
     text-align: center;
 }
 
+.upick_location_button {
+    margin: 40px 0 0;
+}
+
+.crop_schedule {
+    margin-top: -90px;
+    position: relative;
+    z-index: -1;
+
+    img{
+    	max-width: 100%;
+    }
+}
+
 .hl_green {
     color: #4c7520;
 }
