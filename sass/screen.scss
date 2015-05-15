@@ -1026,6 +1026,12 @@ footer{
 			background: url("../img/grow_mobile.jpg");
 			background-size: cover;
 		}
+
+		@media only screen and (max-width: 320px) {
+
+			background: url("../img/grow_320.jpg");
+			
+		}
     }
 
     &.history{
@@ -1035,6 +1041,12 @@ footer{
 
 			background: url("../img/history_mobile.jpg");
 			background-size: cover;
+		}
+
+		@media only screen and (max-width: 320px) {
+
+			background: url("../img/history_320.jpg");
+			
 		}
     }
 
@@ -1046,6 +1058,12 @@ footer{
 			background: url("../img/shelly_mobile.jpg");
 			background-size: cover;
 		}
+
+		@media only screen and (max-width: 320px) {
+
+			background: url("../img/shelly_320.jpg");
+			
+		}
     }
 
     &.unique{
@@ -1055,6 +1073,12 @@ footer{
 
 			background: url("../img/unique_mobile.jpg");
 			background-size: cover;
+		}
+
+		@media only screen and (max-width: 320px) {
+
+			background: url("../img/unique_320.jpg");
+			
 		}
     }
 
@@ -1066,6 +1090,12 @@ footer{
 			background: url("../img/benefits_mobile.jpg");
 			background-size: cover;
 		}
+
+		@media only screen and (max-width: 320px) {
+
+			background: url("../img/benefits_320.jpg");
+			
+		}
     }
 
     &.recipes{
@@ -1076,6 +1106,12 @@ footer{
 			background: url("../img/recipes_mobile.jpg");
 			background-size: cover;
 		}
+
+		@media only screen and (max-width: 320px) {
+
+			background: url("../img/recipes_320.jpg");
+			
+		}
     }
 
     &.upick{
@@ -1085,6 +1121,12 @@ footer{
 
 			background: url("../img/upick_mobile.jpg");
 			background-size: cover;
+		}
+
+		@media only screen and (max-width: 320px) {
+
+			background: url("../img/upick_320.jpg");
+			
 		}
     }
 
