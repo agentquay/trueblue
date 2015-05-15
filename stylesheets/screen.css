@@ -919,28 +919,65 @@ footer h3 {
 .header_img.grow {
   background: url("../img/grow_header.jpg") no-repeat scroll center top/100% auto white;
 }
+@media only screen and (max-width: 640px) {
+  .header_img.grow {
+    background: url("../img/grow_mobile.jpg");
+    background-size: cover;
+  }
+}
 .header_img.history {
   background: url("../img/history_header.jpg") no-repeat scroll center top/100% auto white;
 }
+@media only screen and (max-width: 640px) {
+  .header_img.history {
+    background: url("../img/history_mobile.jpg");
+    background-size: cover;
+  }
+}
 .header_img.shelly {
   background: url("../img/shelly_header.jpg") no-repeat scroll center top/100% auto white;
+}
+@media only screen and (max-width: 640px) {
+  .header_img.shelly {
+    background: url("../img/shelly_mobile.jpg");
+    background-size: cover;
+  }
 }
 .header_img.unique {
   background: url("../img/unique_header.jpg") no-repeat scroll center top/100% auto white;
 }
 @media only screen and (max-width: 640px) {
   .header_img.unique {
-    background: url("../img/unique_mobile.jpg") no-repeat scroll center top/100% auto white;
+    background: url("../img/unique_mobile.jpg");
+    background-size: cover;
   }
 }
 .header_img.b_benefits {
   background: url("../img/benefits_header.jpg") no-repeat scroll center top/100% auto white;
 }
+@media only screen and (max-width: 640px) {
+  .header_img.b_benefits {
+    background: url("../img/benefits_mobile.jpg");
+    background-size: cover;
+  }
+}
 .header_img.recipes {
   background: url("../img/recipes_header.jpg") no-repeat scroll center top/100% auto white;
 }
+@media only screen and (max-width: 640px) {
+  .header_img.recipes {
+    background: url("../img/recipes_mobile.jpg");
+    background-size: cover;
+  }
+}
 .header_img.upick {
   background: url("../img/upick_header.jpg") no-repeat scroll center top/100% auto white;
+}
+@media only screen and (max-width: 640px) {
+  .header_img.upick {
+    background: url("../img/upick_mobile.jpg");
+    background-size: cover;
+  }
 }
 .header_img .head_title {
   color: #fff;
