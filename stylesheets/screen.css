@@ -617,6 +617,7 @@ ul.triggers li.selected {
 }
 .welcome_content p {
   color: #231F20;
+  margin: 15px 0;
 }
 .welcome_content picture {
   position: relative;
@@ -1029,6 +1030,7 @@ footer h3 {
 .header_img .head_title {
   color: #fff;
   padding: 150px 0;
+  text-shadow: 1px 1px 3px #000;
   text-transform: uppercase;
 }
 .header_img .head_title h1 {
@@ -1056,12 +1058,15 @@ footer h3 {
 }
 .page_content h4 {
   color: #005480;
+  font-size: 1.25em;
+  margin: 19px 0;
 }
 .page_content ul {
   margin: 1% 0 2%;
 }
 .page_content li {
   line-height: 1.3;
+  margin: 8px 0;
 }
 .page_content p {
   line-height: 1.5;

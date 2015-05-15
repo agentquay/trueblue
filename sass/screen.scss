@@ -680,6 +680,7 @@ ul{
 
     p{
     	color: #231F20;
+    	margin: 15px 0;
     }
 
     picture {
@@ -1146,7 +1147,9 @@ footer{
     .head_title {
 	    color: #fff;
 	    padding: 150px 0;
+	    text-shadow: 1px 1px 3px #000;
 	    text-transform: uppercase;
+
 
 	    h1 {
 	    	font-family: "texgyreadventorbold";
@@ -1181,6 +1184,8 @@ footer{
 
 	h4 {
 	    color: #005480;
+	    font-size: 1.25em;
+	    margin: 19px 0;
 	}
 
 	ul {
@@ -1189,6 +1194,7 @@ footer{
 
 	li {
 	    line-height: 1.3;
+	    margin: 8px 0;
 	}
 
 	p {
