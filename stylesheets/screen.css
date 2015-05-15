@@ -931,6 +931,12 @@ footer h3 {
 .header_img.b_benefits {
   background: url("../img/benefits_header.jpg") no-repeat scroll center top/100% auto white;
 }
+.header_img.recipes {
+  background: url("../img/recipes_header.jpg") no-repeat scroll center top/100% auto white;
+}
+.header_img.upick {
+  background: url("../img/upick_header.jpg") no-repeat scroll center top/100% auto white;
+}
 .header_img .head_title {
   color: #fff;
   padding: 150px 0;
@@ -998,6 +1004,10 @@ footer h3 {
 }
 .history_content h2 {
   text-align: left;
+}
+
+.u-pick .page_content {
+  text-align: center;
 }
 
 .hl_green {
