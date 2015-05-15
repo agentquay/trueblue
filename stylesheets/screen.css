@@ -928,6 +928,7 @@ footer h3 {
 @media only screen and (max-width: 320px) {
   .header_img.grow {
     background: url("../img/grow_320.jpg");
+    background-size: cover;
   }
 }
 .header_img.history {
@@ -942,6 +943,7 @@ footer h3 {
 @media only screen and (max-width: 320px) {
   .header_img.history {
     background: url("../img/history_320.jpg");
+    background-size: cover;
   }
 }
 .header_img.shelly {
@@ -956,6 +958,7 @@ footer h3 {
 @media only screen and (max-width: 320px) {
   .header_img.shelly {
     background: url("../img/shelly_320.jpg");
+    background-size: cover;
   }
 }
 .header_img.unique {
@@ -970,6 +973,7 @@ footer h3 {
 @media only screen and (max-width: 320px) {
   .header_img.unique {
     background: url("../img/unique_320.jpg");
+    background-size: cover;
   }
 }
 .header_img.b_benefits {
@@ -984,6 +988,7 @@ footer h3 {
 @media only screen and (max-width: 320px) {
   .header_img.b_benefits {
     background: url("../img/benefits_320.jpg");
+    background-size: cover;
   }
 }
 .header_img.recipes {
@@ -998,6 +1003,7 @@ footer h3 {
 @media only screen and (max-width: 320px) {
   .header_img.recipes {
     background: url("../img/recipes_320.jpg");
+    background-size: cover;
   }
 }
 .header_img.upick {
@@ -1012,6 +1018,7 @@ footer h3 {
 @media only screen and (max-width: 320px) {
   .header_img.upick {
     background: url("../img/upick_320.jpg");
+    background-size: cover;
   }
 }
 .header_img .head_title {
