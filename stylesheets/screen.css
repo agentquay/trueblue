@@ -688,7 +688,7 @@ ul.triggers li.selected {
   padding: 15px;
   position: relative;
   transition: all .5s ease 0s;
-  width: 230px;
+  width: 240px;
 }
 @media only screen and (max-width: 892px) {
   .hero {
@@ -727,7 +727,7 @@ ul.triggers li.selected {
 }
 
 .hero_two {
-  bottom: -250px;
+  bottom: -300px;
   left: 0;
 }
 @media only screen and (min-width: 893px) {
@@ -737,7 +737,7 @@ ul.triggers li.selected {
 }
 
 .hero_three {
-  bottom: 227px;
+  bottom: 175px;
   left: 73%;
 }
 
@@ -1001,6 +1001,11 @@ footer h3 {
   font-size: 2.5em;
   font-family: "texgyreadventorbold";
 }
+@media only screen and (max-width: 400px) {
+  .header_img .head_title {
+    text-align: center;
+  }
+}
 
 .page_content {
   margin: 1% auto 5%;
@@ -1050,9 +1055,10 @@ footer h3 {
 }
 @media only screen and (max-width: 735px) {
   .history_side {
-    background: url("../img/history_side_mobile.jpg");
-    background-size: cover;
+    background: url("../img/history_side_mobile.jpg") no-repeat center;
+    background-size: 100%;
     float: none;
+    min-height: 250px;
     max-width: 100%;
   }
 }
@@ -1067,7 +1073,7 @@ footer h3 {
 }
 @media only screen and (max-width: 735px) {
   .shelly_side {
-    background-size: cover;
+    background-size: 270px;
     float: none;
     max-width: 100%;
   }
@@ -1129,6 +1135,43 @@ footer h3 {
 
 .bottom_img img {
   width: 100%;
+}
+
+.contact_info {
+  float: left;
+  margin: 0 0 50px;
+  width: 90%;
+}
+@media only screen and (min-width: 555px) {
+  .contact_info {
+    margin: 50px 0;
+    max-width: 50%;
+  }
+}
+.contact_info .soc_links {
+  margin: 25px 0 50px;
+}
+.contact_info .soc_links li {
+  margin: 0 20px 0 0;
+}
+.contact_info input[type="text"], .contact_info textarea {
+  padding: 5px;
+  width: 90%;
+}
+.contact_info input[type="submit"] {
+  background: #00ADEF;
+  border: none;
+  color: #ffffff;
+  padding: 15px;
+  width: 200px;
+}
+
+address {
+  margin: 25px 0 50px;
+  line-height: 1.5;
+}
+address p {
+  margin: 10px 0;
 }
 
 /*
