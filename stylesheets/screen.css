@@ -905,7 +905,7 @@ footer h3 {
 }
 @media only screen and (max-width: 640px) {
   .header_img.history {
-    background-position: 90% center;
+    background-position: 55% center;
   }
 }
 .header_img.shelly {
@@ -924,7 +924,7 @@ footer h3 {
 }
 @media only screen and (max-width: 640px) {
   .header_img.shelly {
-    background-position: 85% center;
+    background-position: 65% center;
   }
 }
 .header_img.unique {
