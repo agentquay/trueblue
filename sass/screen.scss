@@ -1001,10 +1001,22 @@ footer{
 
     &.history{
     	@include header-background("../img/history_header.jpg");
+
+    	@media only screen and (max-width: 640px) {
+
+			background-position: 90% center;
+			
+		}
     }
 
     &.shelly{
     	@include header-background("../img/shelly_header.jpg");
+
+    	@media only screen and (max-width: 640px) {
+
+			background-position: 85% center;
+			
+		}
     }
 
     &.unique{

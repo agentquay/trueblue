@@ -903,6 +903,11 @@ footer h3 {
     background-size: 1280px;
   }
 }
+@media only screen and (max-width: 640px) {
+  .header_img.history {
+    background-position: 90% center;
+  }
+}
 .header_img.shelly {
   background: url("../img/shelly_header.jpg") no-repeat;
   background-position: center center;
@@ -915,6 +920,11 @@ footer h3 {
 @media only screen and (min-width: 1280px) {
   .header_img.shelly {
     background-size: 1280px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .header_img.shelly {
+    background-position: 85% center;
   }
 }
 .header_img.unique {
