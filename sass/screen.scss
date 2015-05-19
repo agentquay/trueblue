@@ -1021,6 +1021,12 @@ footer{
 
     &.upick{
     	@include header-background("../img/upick_header.jpg");
+
+    	@media only screen and (max-width: 640px) {
+
+			background-position: 65% center;
+			
+		}
     }
 
     &.contact{
