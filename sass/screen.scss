@@ -1028,6 +1028,12 @@ footer{
     }
 
     &.recipes{
+
+    	@media only screen and (max-width: 320px) {
+
+			height: 345px;
+			
+		}
     	@include header-background("../img/recipes_header.jpg");
 
     	h1{
