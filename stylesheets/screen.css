@@ -969,6 +969,14 @@ footer h3 {
     background-size: 1280px;
   }
 }
+.header_img.recipes h1 {
+  font-size: 5.8em !important;
+}
+.header_img.recipes h3 {
+  font-family: "texgyreadventorbold";
+  font-size: 4.4em;
+  font-weight: bolder;
+}
 .header_img.upick {
   background: url("../img/upick_header.jpg") no-repeat;
   background-position: center center;
