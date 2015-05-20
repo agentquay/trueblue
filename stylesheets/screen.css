@@ -684,7 +684,7 @@ ul.triggers li.selected {
   border: 1px solid #bcbcbc;
   border-radius: 10px;
   color: #6C9D30;
-  font-size: .75em;
+  font-size: .9em;
   padding: 15px;
   position: relative;
   transition: all .5s ease 0s;
@@ -727,7 +727,7 @@ ul.triggers li.selected {
 }
 
 .hero_two {
-  bottom: -300px;
+  bottom: -250px;
   left: 0;
 }
 @media only screen and (min-width: 893px) {
@@ -737,7 +737,7 @@ ul.triggers li.selected {
 }
 
 .hero_three {
-  bottom: 175px;
+  bottom: 225px;
   left: 73%;
 }
 
@@ -1163,6 +1163,10 @@ footer h3 {
     max-width: 50%;
   }
 }
+.contact_info img {
+  margin: 0 10px 0 0;
+  vertical-align: middle;
+}
 .contact_info .soc_links {
   margin: 25px 0 50px;
 }
@@ -1182,7 +1186,7 @@ footer h3 {
 }
 
 address {
-  margin: 25px 0 50px;
+  margin: 25px 0 75px;
   line-height: 1.5;
 }
 address p {
